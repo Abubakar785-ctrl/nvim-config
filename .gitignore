@@ -1,0 +1,18 @@
+# Neovim cache & swap
+*.swp
+*.swo
+*.un~
+*.cache
+*.undo
+*.backup
+
+# Lazy / Packer state
+lazy-lock.json
+packer_compiled.lua
+
+# Logs
+*.log
+# Ignore plugin directories (installed by Lazy.nvim / Packer)
+pack/plugins/start/*
+pack/plugins/opt/*
+
